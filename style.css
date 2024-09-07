@@ -1,0 +1,53 @@
+.B{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.bb{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.bbb{
+    margin-top: 110px;
+    margin-left: 100px;
+    width: 30%;
+    height: 30%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    background: transparent;
+}
+.B:hover{
+    animation: b 10s infinite alternate;
+}
+@keyframes b{
+    0%{
+        background-color: transparent;
+        color: rgb(40, 7, 7);
+    }
+    20%{
+        background-color: rgb(27, 125, 125);
+        color: rgb(104, 45, 45);
+    }
+    40%{
+        background-color: rgb(0, 128, 255);
+        color: rgb(175, 130, 130);
+    }
+    60%{
+        background-color: rgb(229, 255, 0);
+        color: rgb(196, 169, 169);
+    }
+    80%{
+        background-color: rgb(255, 0, 221);
+        color: rgb(224, 208, 208);
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+}
